@@ -37,7 +37,7 @@ public class StudentJsonApplication {
 		try {
 
 			// Constructs a FileWriter given a file name, using the platform's default charset
-			file = new FileWriter("data.txt");
+			file = new FileWriter("data.json");
 			file.write(obj.toJSONString());
 			CrunchifyLog("Ghi thành công vào file");
 			CrunchifyLog("\nĐối tượng JSON: " + obj);
